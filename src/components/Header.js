@@ -1,4 +1,4 @@
-rimport React from 'react'
+import React from 'react'
 import '../assets/css/Header.css'
 import SearchIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
