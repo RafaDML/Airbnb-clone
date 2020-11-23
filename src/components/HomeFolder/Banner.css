@@ -1,0 +1,27 @@
+.banner {
+    
+    height: 50vh;
+    position: relative;
+    background: url("https://a0.muscache.com/im/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg?im_w=1200");
+}
+
+.banner_info {
+    
+    color: white;
+    padding-top: 10vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+
+}
+.down_banner_info {
+    
+    color: white;
+    padding-top: 0vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+
+}
