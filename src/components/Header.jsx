@@ -27,7 +27,7 @@ class Header extends Component {
                     </div>
 
                     <div className='header_right'>
-                        <p>Conviertete anfitrión</p>
+                        <p>Conviertete aanfitrión</p>
                         <LanguageIcon />
                         <ExpandMoreIcon />
                         <AccountCircleIcon />
