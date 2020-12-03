@@ -1,6 +1,6 @@
 .banner {
     
-    height: 50vh;
+    height: 60vh;
     position: relative;
     background: url("https://a0.muscache.com/im/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg?im_w=1200");
 }
@@ -8,6 +8,7 @@
 .banner_info {
     
     color: white;
+   
     padding-top: 10vh;
     padding-left: 50px;
     padding-right: 50px;
@@ -21,7 +22,27 @@
     padding-top: 0vh;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     width: 300px;
+    
 
+}
+
+.boton_banner{
+    
+    padding-left: 50px;
+    
+}
+
+.boton{
+    background-color: white;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+    color: gray;
+    
 }
