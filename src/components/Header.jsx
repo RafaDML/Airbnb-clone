@@ -25,26 +25,22 @@ class Header extends Component {
                 <div className="header">
             
                     <a href="/">
-                    <img
-                        className="header_icon"
-                        src={logo}
-                    
-                    />
+                    <img className="header_icon" src={logo}/>
                     </a>
 
                 
                 
 
                     <div className="header_center">
-                        <input type="text"/>
-                        <SearchIcon />
+                        <input type="text" placeholder="Empieza tu búsqueda" />
+                        <SearchIcon  />
                     </div>
 
                     <div className='menu'>
                         <ul>
-                            <li> <a href="anfitrion.html">Conviertete anfitrión   </a></li>
+                            <li> <a href="anfitrion.html">Hazte anfitrión   </a></li>
                             <li> <LanguageIcon /></li>
-                            <li><ExpandMoreIcon /></li>
+                            <li><ExpandMoreIcon   /></li>
                             <li> <Button onClick={this.abrirModal}><AccountCircleIcon /></Button></li>
                             
 
@@ -69,17 +65,17 @@ class Header extends Component {
                      </ModalHeader>
                      <ModalBody>
                          <FormGroup>
-                         <Label for="usuario">Usuario</Label>
-                        <Input type="text" id="usuario"/>
+                         
+                        <Input type="text" placeholder="Usuario" id="usuario"/>
                          </FormGroup>
                          <FormGroup>
-                         <Label for="usuario">Usuario</Label>
-                        <Input type="text" id="usuario"/>
+                         
+                        <Input type="password" placeholder="Contraseña" id="contraseña"/>
                          </FormGroup>
                          
                      </ModalBody>
                      <ModalFooter>
-                         <Button color="success" onClick={this.abrirModal}>Iniciar Sesión</Button>
+                         <Button className="login_btn" color="danger" onClick={this.abrirModal}>Iniciar Sesión</Button>
 
                          <Button color="secondary" onClick={this.abrirModal}>Close</Button>
 

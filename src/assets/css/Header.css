@@ -77,3 +77,7 @@
 .menu a:hover{
     color: #3cb2d3;
 }
+.login_btn{
+    width: 500px;
+    background-color: #C70039;
+}
