@@ -25,11 +25,7 @@ class Header extends Component {
                 <div className="header">
             
                     <a href="/">
-                    <img
-                        className="header_icon"
-                        src={logo}
-                    
-                    />
+                    <img className="header_icon" src={logo}/>
                     </a>
 
                 
@@ -69,17 +65,17 @@ class Header extends Component {
                      </ModalHeader>
                      <ModalBody>
                          <FormGroup>
-                         <Label for="usuario">Usuario</Label>
-                        <Input type="text" id="usuario"/>
+                         
+                        <Input type="text" placeholder="Usuario" id="usuario"/>
                          </FormGroup>
                          <FormGroup>
-                         <Label for="usuario">Usuario</Label>
-                        <Input type="text" id="usuario"/>
+                         
+                        <Input type="password" placeholder="Contraseña" id="contraseña"/>
                          </FormGroup>
                          
                      </ModalBody>
                      <ModalFooter>
-                         <Button color="success" onClick={this.abrirModal}>Iniciar Sesión</Button>
+                         <Button className="login_btn" color="danger" onClick={this.abrirModal}>Iniciar Sesión</Button>
 
                          <Button color="secondary" onClick={this.abrirModal}>Close</Button>
 
