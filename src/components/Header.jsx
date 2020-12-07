@@ -32,15 +32,15 @@ class Header extends Component {
                 
 
                     <div className="header_center">
-                        <input type="text"/>
-                        <SearchIcon />
+                        <input type="text" placeholder="Empieza tu búsqueda" />
+                        <SearchIcon  />
                     </div>
 
                     <div className='menu'>
                         <ul>
-                            <li> <a href="anfitrion.html">Conviertete anfitrión   </a></li>
+                            <li> <a href="anfitrion.html">Hazte anfitrión   </a></li>
                             <li> <LanguageIcon /></li>
-                            <li><ExpandMoreIcon /></li>
+                            <li><ExpandMoreIcon   /></li>
                             <li> <Button onClick={this.abrirModal}><AccountCircleIcon /></Button></li>
                             
 
