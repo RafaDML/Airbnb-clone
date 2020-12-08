@@ -81,3 +81,18 @@
     width: 500px;
     background-color: #C70039;
 }
+.searchiconheader{
+    background-color: #C70039;
+    color: white;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+}
+.btnuserheader{
+    background-color: white;
+    color: lightgray;
+    border-radius: 100px;
+    
+}
