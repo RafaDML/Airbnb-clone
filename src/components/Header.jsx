@@ -33,7 +33,8 @@ class Header extends Component {
 
                     <div className="header_center">
                         <input type="text" placeholder="Empieza tu búsqueda" />
-                        <SearchIcon  />
+                        <a className="searchiconheader"><SearchIcon style={{ fontSize: 29 }} /></a>
+                        
                     </div>
 
                     <div className='menu'>
@@ -41,7 +42,7 @@ class Header extends Component {
                             <li> <a href="anfitrion.html">Hazte anfitrión   </a></li>
                             <li> <LanguageIcon /></li>
                             <li><ExpandMoreIcon   /></li>
-                            <li> <Button onClick={this.abrirModal}><AccountCircleIcon /></Button></li>
+                            <li> <Button className="btnuserheader" onClick={this.abrirModal}><AccountCircleIcon  /></Button></li>
                             
 
                         </ul>
